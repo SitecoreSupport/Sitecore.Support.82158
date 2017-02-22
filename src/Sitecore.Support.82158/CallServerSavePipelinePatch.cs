@@ -11,9 +11,9 @@
     using Sitecore.Pipelines.Save;
     using System;
     using System.Collections;
-
+     
     public class CallServerSavePipelinePatch : CallServerSavePipeline
-    {
+    { 
         public override PipelineProcessorResponseValue ProcessRequest()
         {
             PipelineProcessorResponseValue value2;
